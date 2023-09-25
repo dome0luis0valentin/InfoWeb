@@ -1,0 +1,15 @@
+Posicionate en el directorio del Dockerfile
+
+ejecuta:
+
+docker build -t mydjangoapp .
+
+-t es para el tag del contenedor
+
+y luego
+
+docker run -p 8000:8000 mydjangoapp
+
+-p mapea el puerto de tu máquina con el del contenedor
+
+ve a tu navegador a la dirección 0.0.0.0:8000
